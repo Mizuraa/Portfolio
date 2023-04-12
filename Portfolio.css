@@ -1,0 +1,21 @@
+*{
+padding: 0;
+margin: 0;
+}
+.Head Text{
+position: relative;
+min-width: 48px;
+min-height: 48px;
+}
+.body{
+background: linear-gradient(
+    to right,
+    blue 0%,
+    blue 50%,
+    pink 50%,
+    pink 100%
+);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
