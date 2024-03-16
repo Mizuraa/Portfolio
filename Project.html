@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwindcss Portfolio</title>
+    <link rel ="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+    <body class="bg-blue-500 text-white italic text-font font-sans">
+        <header class="bg-white text-black font-bold italic cursor-pointer">
+            <ul class="flex justify-around p-4"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Project.html">About</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a href="Project.html">Contact</a></li>
+            </ul>
+    </header>
+        <h1 class="italic font-bold text-8xl text-white flex justify-center items-center h-screen animate-fadeIn">Coming Soon</h1>
+        <style>
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                }
+    
+                to {
+                    opacity: 1;
+                }
+            }
+    
+            @keyframes slideInRight {
+                from {
+                    transform: translateX(100%);
+                }
+    
+                to {
+                    transform: translateX(0);
+                }
+            }
+    
+            .animate-fadeIn {
+                animation: fadeIn 1s ease-in-out;
+            }
+    
+            .animate-slideInRight {
+                animation: slideInRight 1s ease-out;
+            }
+            a:hover{
+                background: grey;
+                border-radius: 12px;
+                padding: 10px;
+            }
+        </style>
+    </body>
+</html>
