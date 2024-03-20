@@ -4,62 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwindcss Portfolio</title>
+    <link rel ="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-
-            to {
-                opacity: 1;
-            }
-        }
-
-        @keyframes slideInRight {
-            from {
-                transform: translateX(100%);
-            }
-
-            to {
-                transform: translateX(0);
-            }
-        }
-
-        .animate-fadeIn {
-            animation: fadeIn 1s ease-in-out;
-        }
-
-        .animate-slideInRight {
-            animation: slideInRight 1s ease-out;
-        }
-        a:hover{
-            background: grey;
-            border-radius: 12px;
-            padding: 10px;
-        }
-    </style>
 </head>
 
-<body class="bg-blue-500 text-white italic text-font font-sans">
-    <header class="bg-white text-black font-bold italic cursor-pointer animate-fadeIn">
-        <ul class="flex justify-around p-4">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Project.html">About</a></li>
-            <li><a href="Project.html">Project</a></li>
-            <li><a href="Project.html">Contact</a></li>
-        </ul>
+    <body class="bg-blue-500 text-white italic text-font font-sans md:bg-fixed">
+        <header class="bg-white text-black font-bold italic cursor-pointer">
+            <ul class="flex justify-around p-4"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Project.html">About</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a href="Project.html">Contact</a></li>
+            </ul>
     </header>
-    <div class="flex flex-wrap items-center justify-center h-screen md:flex-row">
-        <img class="w-56 h-56 rounded-full m-10 animate-fadeIn" src="https://cdn.discordapp.com/attachments/761210462414307341/1216670593756168332/2b58e8bec19fb432a7681127e8d95e16.png?ex=66013bca&is=65eec6ca&hm=e843b494baad7782d33feb825ecadf585a453ca0ebd40994a742fdffbfe0235d&" alt="Circle Image">
-        <div class="text-center m-16 p-4 sm:text-left sm:ml-8 mt-4">
-            <h1 id="cude" class="font-bold text-4xl italic text-base animate-fadeIn">Rising Junior Developer from the club of  DONAT STI Ortigas-Cainta with <br> a passion to learn more things and improve as a person</h1>
-            <div class="italic animate-fadeIn">
-                <p>
-                    "I was born in Cavite but raised in Rizal, where I grew up in a middle-class community. <br> My family, gaming, and music have honed me to be a better person, <br> allowing me to forge a good path and gain valuable experiences for my future. <br> Additionally, I am part of a club called Donat, where my role is as a junior developer."
-                </p>
-            </div>
-        </div>
-    </div>
-</body>
+        <h1 class="italic font-bold text-8xl text-white flex justify-center items-center h-screen animate-fadeIn">Coming Soon</h1>
+        <style>
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                }
+    
+                to {
+                    opacity: 1;
+                }
+            }
+    
+            @keyframes slideInRight {
+                from {
+                    transform: translateX(100%);
+                }
+    
+                to {
+                    transform: translateX(0);
+                }
+            }
+    
+            .animate-fadeIn {
+                animation: fadeIn 1s ease-in-out;
+            }
+    
+            .animate-slideInRight {
+                animation: slideInRight 1s ease-out;
+            }
+            a:hover{
+                background: grey;
+                border-radius: 12px;
+                padding: 10px;
+            }
+        </style>
+    </body>
 </html>
